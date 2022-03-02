@@ -18,7 +18,7 @@
 <body>
     <label for="aSlider">a = </label>
     <label id="a-value">0.125</label>
-    <input type="range" name="aSlider" id=aSlider min="-0.3" max="0.3" value="0.05" step="0.005" style="margin: 0; width: 600px;">
+    <input type="range" name="aSlider" id=aSlider min="-0.3" max="0.3" value="0.125" step="0.005" style="margin: 0; width: 600px;">
     <br>
     <script type="text/javascript">
         let w = 1700;
@@ -31,7 +31,7 @@
                     .attr("height", h);
 
         let bins = 1000;
-        let aVal = 0.05;
+        let aVal = 0.125;
         
         let uS = (y,m) => {
             return -((y-m)**2);
